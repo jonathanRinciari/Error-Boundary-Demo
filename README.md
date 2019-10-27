@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## What is this?
+
+This project is meant to be a demo of using Error boundaries in React. Error Boundaries are a way of encapsulating errors that occur in your application. If used correctly you can prevent your entire app from not working. An example is if a widget on your dashboard is wrapped with a error boundary, and a error occurs inside of this widget. Your dashboard will continue to work, but the widget will instead crash intelligently and can display an error message.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
